@@ -1,0 +1,15 @@
+{
+    // Python extensiton
+    "python.pythonPath": "/home/vagrant/env/bin/python3",
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintPath": "/usr/bin/pylint3",
+    "python.linting.enabled": true,
+    "python.jediEnabled": true,
+    "[python]": {
+        "editor.rulers": [90]
+        },
+    "python.autoComplete.extraPaths": [
+        "/home/vagrant/env/lib/python3.6/site-packages"
+        ],
+    "python.linting.pylintArgs": ["--load-plugins", "pylint_django"]
+}
